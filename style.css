@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* Reset 基本樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff0f5;
+}
+
+/* 導覽列 */
+nav {
+    background-color: #ff99cc;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* 首圖 hero */
+.hero {
+    background-color: #ffe6f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+/* 區塊 section */
+.section {
+    padding: 40px 20px;
+}
+
+.gray {
+    background-color: #fef0f5;
+}
+
+/* 卡片樣式 */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* 時間軸 */
+.timeline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    padding: 10px 0;
+    border-left: 3px solid #ff99cc;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+/* 下載按鈕 */
+.download a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff99cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* 頁尾 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6f0;
+}
